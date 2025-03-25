@@ -10,4 +10,6 @@ public interface CustomerService {
     List<Customer> getAllCustomers();
     Customer searchCustomer(Integer customerId);
     boolean deleteCustomer(Integer customerId);
+    public Integer calc(Integer a , Integer b);
+    public String getNames(String name);
 }

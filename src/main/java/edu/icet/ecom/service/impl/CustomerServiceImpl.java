@@ -57,4 +57,24 @@ public class CustomerServiceImpl implements CustomerService {
 
     }
 
+    @Override
+    public Integer calc(Integer a, Integer b) {
+        return a+b;
+    }
+
+    @Override
+    public String getNames(String name) {
+        switch (name) {
+            case "Nimal":
+                return "A";
+
+            case "Kamal":
+                return "B";
+
+            case "Sunil":
+                return "C";
+        }
+        return name;
+
+    }
 }
